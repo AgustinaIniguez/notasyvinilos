@@ -1,0 +1,266 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,800;0,900;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*--------------------HEADER--------------------*/
+
+
+
+
+
+header {
+    background-color: black;
+    padding: 7px;
+    position: sticky;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header h1 {
+    justify-self: start;
+    margin-left: 20px;
+    color: #F5F3F4;
+    font-size: 1.50rem;
+    cursor: pointer;
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+
+}
+
+header nav ul {
+    list-style: none;
+    margin: 20px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: white;
+    font-family: 'Noto Serif', serif;
+
+}
+
+
+/*-----------------------MAIN----------------------*/
+
+
+/*---------------Hero Section------------*/
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(73, 66, 66, 0.3)), url(../img/dicoshero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+
+}
+
+
+.banner-container {
+    text-align: center;
+    padding: 15% 0;
+}
+
+.tittle1 {
+    font-size: 4.48rem;
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    font-weight: 900;
+    color: #F5F3F4;
+
+}
+
+.p1 {
+    font-size: 2.48rem;
+    font-weight: 800;
+    font-family: 'Noto Serif', serif;
+    color: #F5F3F4;
+}
+
+/*-------------About Us----------------*/
+
+
+
+.titulo-secundario {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    padding: 8px;
+}
+
+.descripcion{
+    text-align: center;
+    padding: 35px;
+    font-size: 1.45rem;
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    margin: 5px;
+    color: #1B2021;
+}
+
+
+
+
+.column {
+    text-align: center;
+    width: 600px;
+    height: 550px;
+}
+
+
+.tienda {
+    height: 460px;
+    width: 550px;
+}
+
+
+
+
+/*----------------- PRODUCTOS ----------------*/
+
+
+.galeria_img .tarjetas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+    margin: 50px;
+}
+
+
+.galeria_img .tarjetas div{
+    border: 2px solid black;
+    height: 370px;
+    box-shadow: 10px 10px 28px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 28px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 28px -1px rgba(0,0,0,0.75);
+    margin: 15px;
+}
+
+
+.tarjetas div img{
+    width: 350px;
+    height: 300px;
+}
+
+.tarjetas div h3{
+    text-align: center;
+    color: black;
+    font-style: italic;
+    font-family: 'Noto Serif', serif;
+} 
+
+    .tarjetas div p{
+    margin-bottom: 20px;
+    text-align: center;
+    color:black;
+    font-style: italic;
+    font-weight: 600;
+    font-family:'Noto Serif', serif;
+} 
+
+
+
+/*----------------- seccion categorias ----------------*/
+
+.titulo-categoria{
+    margin-top: 20px;
+    font-size: 2.50rem;
+    font-weight: 600;
+    font-family: 'Noto Serif', serif;
+    padding: 20px;
+}
+
+
+
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor div{
+    text-align: center; 
+    margin: 20px;
+    box-shadow: 10px 10px 28px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 28px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 28px -1px rgba(0,0,0,0.75);
+    
+} 
+
+.contenedor img{
+    width: 360px;
+    height: 320px;
+}
+
+.categorias-titulo{
+    font-weight: 600;
+    font-size: 1.40rem;
+    font-family:'Noto Serif', serif;
+    font-style: italic;
+}
+
+.contenedor div p{
+    margin-bottom: 20px;
+    text-align: center;
+    color:black;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.30rem;
+    font-family:'Noto Serif', serif;
+}
+
+.boton{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 1.10rem;
+    font-family:'Noto Serif', serif;
+    padding: 5px 8px;
+    margin: 5px;
+    
+    
+}
+
+
+
+
+
+/*-------------------------FOOTER----------------------*/
+
+
+
+
+footer {
+    background-color: black;
+    height: 15vh;
+    text-align: center;
+    padding: 20px;
+    border: 5px;
+}
+
+
+.titulo-footer{
+    color: white;
+    font-size: 1.40rem;
+    font-family:'Noto Serif', serif;
+    padding: 20px;
+}
