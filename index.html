@@ -62,6 +62,33 @@
 
         </section>
 
+        <!-- Formulario aquí -->
+
+
+        <h3>Registro de compra</h1>
+
+            <form id="miFormulario">
+                <label for="fname">Nombre:</label>
+                <input type="text" id="fname" name="fname" required>
+
+                <label for="lname">Apellido:</label>
+                <input type="text" id="lname" name="lname" required>
+
+                <button type="button" onclick="create()">Agregar</button>
+                <button type="button" onclick="update()">Actualizar</button>
+                <button type="button" onclick="deleteItem()">Eliminar</button>
+
+                <select id="panel" size="4" onclick="panelClick()">
+                </select>
+            </form>
+
+            <button id="myButton" onclick="cambiarTamaño()">Click aqui</button>
+
+
+
+
+
+
 
     </main>
 
@@ -80,6 +107,9 @@
         </div>
 
     </footer>
+
+<script src="./js/index.js"></script>
+
 </body>
 
 </html>

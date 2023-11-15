@@ -1,5 +1,3 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,800;0,900;1,900&display=swap');
 
 * {
@@ -105,7 +103,7 @@ header nav ul li a {
     padding: 8px;
 }
 
-.descripcion{
+.descripcion {
     text-align: center;
     padding: 35px;
     font-size: 1.45rem;
@@ -136,51 +134,51 @@ header nav ul li a {
 /*----------------- PRODUCTOS ----------------*/
 
 
-.galeria_img .tarjetas{
+.galeria_img .tarjetas {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     margin: 50px;
 }
 
 
-.galeria_img .tarjetas div{
+.galeria_img .tarjetas div {
     border: 2px solid black;
     height: 370px;
-    box-shadow: 10px 10px 28px -1px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 10px 10px 28px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 28px -1px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 28px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 28px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 28px -1px rgba(0, 0, 0, 0.75);
     margin: 15px;
 }
 
 
-.tarjetas div img{
+.tarjetas div img {
     width: 350px;
     height: 300px;
 }
 
-.tarjetas div h3{
+.tarjetas div h3 {
     text-align: center;
     color: black;
     font-style: italic;
     font-family: 'Noto Serif', serif;
-} 
+}
 
-    .tarjetas div p{
+.tarjetas div p {
     margin-bottom: 20px;
     text-align: center;
-    color:black;
+    color: black;
     font-style: italic;
     font-weight: 600;
-    font-family:'Noto Serif', serif;
-} 
+    font-family: 'Noto Serif', serif;
+}
 
 
 
 /*----------------- seccion categorias ----------------*/
 
-.titulo-categoria{
+.titulo-categoria {
     margin-top: 20px;
     font-size: 2.50rem;
     font-weight: 600;
@@ -190,66 +188,80 @@ header nav ul li a {
 
 
 
-.contenedor{
+.contenedor {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.contenedor div{
-    text-align: center; 
+.contenedor div {
+    text-align: center;
     margin: 20px;
-    box-shadow: 10px 10px 28px -1px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 10px 10px 28px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 28px -1px rgba(0,0,0,0.75);
-    
-} 
+    box-shadow: 10px 10px 28px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 28px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 28px -1px rgba(0, 0, 0, 0.75);
 
-.contenedor img{
+}
+
+.contenedor img {
     width: 360px;
     height: 320px;
 }
 
-.categorias-titulo{
+.categorias-titulo {
     font-weight: 600;
     font-size: 1.40rem;
-    font-family:'Noto Serif', serif;
+    font-family: 'Noto Serif', serif;
     font-style: italic;
 }
 
-.contenedor div p{
+.contenedor div p {
     margin-bottom: 20px;
     text-align: center;
-    color:black;
+    color: black;
     font-style: italic;
     font-weight: 600;
     font-size: 1.30rem;
-    font-family:'Noto Serif', serif;
+    font-family: 'Noto Serif', serif;
 }
 
-.boton{
+.boton {
     text-decoration: none;
     text-align: center;
     color: black;
     font-size: 1.10rem;
-    font-family:'Noto Serif', serif;
+    font-family: 'Noto Serif', serif;
     padding: 5px 8px;
     margin: 5px;
-    
-    
+
+
 }
+
+
+#myButton {
+    font-size: 16px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+#myButton:hover,
+#myButton:active,
+#myButton:focus {
+    transform: scale(1.2);
+}
+
 
 
 /*------------------------- CONTACTO ----------------------*/
 
 
-.contacto{
+.contacto {
     color: #0083E0;
 }
 
 
-.mapa{
+.mapa {
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -274,9 +286,14 @@ footer {
 }
 
 
-.titulo-footer{
+.titulo-footer {
     color: white;
     font-size: 1.40rem;
-    font-family:'Noto Serif', serif;
+    font-family: 'Noto Serif', serif;
     padding: 20px;
 }
+
+
+
+
+

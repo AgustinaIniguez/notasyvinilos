@@ -140,6 +140,46 @@
         </section>
 
 
+
+
+
+
+        <h3>Registro de usuario</h3>
+
+            <form id="miFormulario">
+                <label for="fname">Nombre del disco:</label>
+                <input type="text" id="fname" name="fname" required>
+
+                <label for="lname">Categoria:</label>
+                <input type="text" id="lname" name="lname" required>
+
+                <button type="button" onclick="create()">Agregar</button>
+                <button type="button" onclick="update()">Actualizar</button>
+                <button type="button" onclick="deleteItem()">Eliminar</button>
+
+                <select id="panel" size="4" onclick="panelClick()">
+                </select>
+            </form>
+
+            <button id="myButton" onclick="cambiarTamaño()">Click aqui</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </main>
 
 
@@ -154,6 +194,9 @@
             <a href="https://music.apple.com/us/browse" target="_blank"><img src="../img/musica.png" alt=""></a>
         </div>
     </footer>
+
+    <script src="../js/productos.js"></script>
+
 </body>
 
 </html>
